@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game1Activity"
+    android:background="@color/backGround">
+
+    <Button
+        android:id="@+id/hintButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="hint" />
+
+    <LinearLayout
+        android:id="@+id/TextAndPic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/hintButton">
+
+        <TextView
+            android:id="@+id/infotext"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+        <ImageView
+            android:id="@+id/full"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/full"
+            tools:srcCompat="@drawable/full" />
+
+        <ImageView
+            android:id="@+id/half"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/half"
+            tools:srcCompat="@drawable/half" />
+
+        <ImageView
+            android:id="@+id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            app:srcCompat="@drawable/empty"
+            tools:srcCompat="@drawable/empty" />
+
+        <LinearLayout
+            android:id="@+id/Unused"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/pourbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pour" />
+
+            <Button
+                android:id="@+id/drinkbutton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Drink" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

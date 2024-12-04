@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game4Activity"
+    android:background="@color/backGround">
+
+    <Button
+        android:id="@+id/hintButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="hint" />
+
+    <TextView
+        android:id="@+id/presentNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hintButton"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/startButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hintButton"
+        android:layout_centerHorizontal="true"
+        android:text="Button" />
+
+
+    <LinearLayout
+        android:layout_below="@id/hintButton"
+        android:id="@+id/Table"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</RelativeLayout>

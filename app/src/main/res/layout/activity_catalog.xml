@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backGround"
+    tools:context=".Game6Activity">
+
+    <TextView
+        android:id="@+id/instruction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Welcome to Mystic 125!\nTry to solve the top nine unsolved mysteries！"
+        android:textColor="@color/designBlue"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:layout_margin="15dp"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/instruction">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/game1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/c1"
+                tools:src="@drawable/c1"
+                tools:srcCompat="@drawable/c1" />
+
+            <ImageButton
+                android:id="@+id/game2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/c2"
+                tools:src="@drawable/c2"
+                tools:srcCompat="@drawable/c2" />
+
+            <ImageButton
+                android:id="@+id/game3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/c3"
+                tools:src="@drawable/c3"
+                tools:srcCompat="@drawable/c3" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/game4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/c4"
+                tools:src="@drawable/c4"
+                tools:srcCompat="@drawable/c4" />
+
+            <ImageButton
+                android:id="@+id/game5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/c5"
+                tools:src="@drawable/c5"
+                tools:srcCompat="@drawable/c5" />
+
+            <ImageButton
+                android:id="@+id/game6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/c6"
+                tools:src="@drawable/c6"
+                tools:srcCompat="@drawable/c6" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/game7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/c7"
+                tools:src="@drawable/c7"
+                tools:srcCompat="@drawable/c7" />
+
+            <ImageButton
+                android:id="@+id/game8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/c8"
+                tools:src="@drawable/c8"
+                tools:srcCompat="@drawable/c8" />
+
+            <ImageButton
+                android:id="@+id/game9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@null"
+                android:scaleType="centerInside"
+                android:src="@drawable/c9"
+                tools:src="@drawable/c9"
+                tools:srcCompat="@drawable/c9" />
+        </TableRow>
+
+    </TableLayout>
+
+</RelativeLayout>
